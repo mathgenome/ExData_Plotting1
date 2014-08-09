@@ -31,5 +31,11 @@ lines(dat$DateTime,dat$Sub_metering_3,col="blue")
 legend("topright", col = c("black","red", "blue"), lty=c(1,1,1),legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),bty="n") #bty = "n" suppress border
 plot(dat$DateTime,dat$Global_reactive_power,type="l",xlab="datetime",ylab="Global_reactive_power")
 dev.off()
-
+#Output generated in:
+date()
+#Humberto Reyes
+#  ^   ^
+#  O   O
+# (      )
+#   A  A
 

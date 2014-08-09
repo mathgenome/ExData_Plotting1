@@ -28,4 +28,10 @@ lines(dat$DateTime,dat$Sub_metering_2,col="red")
 lines(dat$DateTime,dat$Sub_metering_3,col="blue")
 legend("topright", col = c("black","red", "blue"), lty=c(1,1,1),legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
 dev.off()
-
+#Output generated in:
+date()
+#Humberto Reyes
+#  ^   ^
+#  O   O
+# (      )
+#   A  A

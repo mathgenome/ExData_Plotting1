@@ -25,3 +25,10 @@ png("plot2.png",width=480,height=480)
 par(bg="gray60")
 plot(dat$DateTime,dat$Global_active_power,type="l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
+#Output generated in:
+date()
+#Humberto Reyes
+#  ^   ^
+#  O   O
+# (      )
+#   A  A

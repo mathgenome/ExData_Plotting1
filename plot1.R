@@ -25,3 +25,10 @@ png("plot1.png",width=480,height=480)
 par(bg="gray60")
 hist(dat$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)",ylab="Frequency")
 dev.off()
+#Output generated in:
+date()
+#Humberto Reyes
+#  ^   ^
+#  O   O
+# (      )
+#   A  A

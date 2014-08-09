@@ -112,3 +112,11 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+------------------
+The codes plot1.R, plot2.R, plot3.R and plot4.R generate the plots, which are located in the folder [myfigures](https://github.com/mathgenome/ExData_Plotting1/tree/master/myfigures). I sued a grey background because in the chunks of the folder 'figures" the plots appear in that fashion.
+
+In the R codes, a sql approach is used to select only the rows for dates 01/02/2007 and 02/02/2007. This speeds up the process. It takes lees than 20 seconds in my Mac to run each code.
+
+I created the column DateTime, that captures Data and Time information.
+
+
